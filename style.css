@@ -1,0 +1,94 @@
+
+*{
+ box-sizing:border-box;
+ margin:0;
+ padding: 0;   
+}
+body{
+    width: 100%;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-image: url(img/bg-iamge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    font-weight:600;
+    margin-top: 20px;
+}
+
+.result{
+    text-align: center;
+    margin:20px 0;
+}
+
+.result-heading{
+    margin-top: 20px;
+    color: #555;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.celsius-value{
+    border-bottom: 2px solid #fff;
+    padding: 10px;
+    transition: all .45s ease;
+}
+#convert-btn{
+    border:none;
+    outline:none;
+    border-radius: 5px;
+    background:linear-gradient(to bottom,#3633f3,#120fb9);
+    color:#f6f6f6;
+    padding:12px 80px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top:10px;
+    transition: all .3s ease-in;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#convert-btn:hover{
+    background:linear-gradient(to bottom, #4a47e7,#322);
+}
+.fa-solid{
+    font-size: 14px;
+}
+
+.convert-btn-div{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.input-text{
+    margin-top: 15px;
+}
+
+.input-text label{
+    color:#555;
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.input-text input{
+    border-bottom: 1px solid #555;
+}
+
+.bg-color{
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px 0;
+}
